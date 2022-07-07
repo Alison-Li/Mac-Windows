@@ -130,5 +130,8 @@
 <!+9::Send, ^+9
 <!+0::Send, ^+0
 
+; Remap PrintScreen as Win+Shift+S
+PrintScreen::Send #+s
+
 ; Cannot replace ctrl with alt or a cycle will occur.
 ; Because of this, we'll only remap left keys
